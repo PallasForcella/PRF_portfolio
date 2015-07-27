@@ -6,17 +6,31 @@ body{
 head{
 	margin: 0px;
 }
-.social{
+div.social{
 	height: 2em;
 	width: auto;
 	background-color:#504D48;
+	position: relative;
 }
 
-.header .name{
+.header {
 position: relative;
 background-color: #9B8E88;
+height: 11em;
 }
-
+.box{
+	position:absolute;
+	background-color: #CA9477;
+	border-radius: 10em;
+}
+img.me {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
 .me{
 float:left;
 display: inline-block;
@@ -25,12 +39,18 @@ height: 8em;
 width: auto;
 padding: .5em;
 margin:1em;
+margin-left: 5em;
 background-color: #C5BDBB;
 }
 
-h1{
-display: inline-block;
+
+h1.greeting {
+	font-weight: 500 !important;
+	font-size: 1.5em !important;
+	margin:1em !important;
+
 }
-.name{
-	position: absolute;
+p{
+	margin-top: .5em;
+	margin-bottom: .5em;
 }

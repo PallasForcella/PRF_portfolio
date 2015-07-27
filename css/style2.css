@@ -1,6 +1,6 @@
 body{
 	margin: 0px;
-	background-color: #DEC8CB;
+	background-color: #CACEBD;
 	font-family: 'Roboto', sans-serif;
 }
 head{
@@ -14,7 +14,11 @@ head{
 
 .header .name{
 	position: relative;
-background-color: #44765c;
+background-color: #546c32;
+height: 11em;
+}
+h1{
+	font-weight: none;
 }
 
 .me{
@@ -25,6 +29,7 @@ height: 8em;
 width: auto;
 padding: .5em;
 margin:1em;
+margin-left: 5em;
 background-color: #232114;
 }
 
