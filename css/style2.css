@@ -1,0 +1,36 @@
+body{
+	margin: 0px;
+	background-color: #DEC8CB;
+	font-family: 'Roboto', sans-serif;
+}
+head{
+	margin:0px;
+}
+.social{
+	height: 2em;
+	width: auto;
+	background-color:#232114;
+}
+
+.header .name{
+	position: relative;
+background-color: #44765c;
+}
+
+.me{
+float:left;
+display: inline-block;
+border-radius: 10em;
+height: 8em;
+width: auto;
+padding: .5em;
+margin:1em;
+background-color: #232114;
+}
+
+h1{
+display: inline-block;
+}
+.name{
+	position: absolute;
+}
