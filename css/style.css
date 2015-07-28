@@ -9,14 +9,15 @@ head{
 div.social{
 	height: 2em;
 	width: auto;
-	background-color:#504D48;
+	background-color:#625F5A;
 	position: relative;
 }
 
 .header {
 position: relative;
-background-color: #9B8E88;
+background-color: #A59994;
 height: 11em;
+border-bottom: .5em #9B8E88 solid;
 }
 .circle{
 	position:absolute;
@@ -89,7 +90,7 @@ font-size: 1.1em !important;
 margin-top: .4em;
 }
 ul.icons{
-	background-color: #504D48;
+	background-color: #625F5A;
 }
 .text{
 max-width: 38em;
