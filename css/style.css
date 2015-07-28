@@ -118,19 +118,18 @@ margin-left: 2.5em;
 .circle{
 
 }
-h1{
-	font-size: 1em;
-}
-.font{
-	font-size: .8em;
-	}
+
 .link1, .link2, .link3{
 	width: 11em;
   height: 11em;
+  float: none;
 	}
+	.font{
+	display: none;
+}
 
 }
-}
+
 
 @media only screen and (max-width: 1000px){
 	.me{
@@ -157,10 +156,6 @@ h1 {
 p{
 	display: none;
 }
-.link1, .link2, .link3{
-	width: 10em;
-  height: 10em;
-	}
-}
+
 
 
