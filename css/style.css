@@ -58,10 +58,7 @@ h1 {
 	margin:.6em !important;
 
 }
-p{
-	margin-top: .3em;
-	margin-bottom: .3em;
-}
+
 .font{
 	font-size: 1em;
 	padding-bottom: 1em;
@@ -95,12 +92,6 @@ margin-top: .4em;
 ul.icons{
 	background-color: #A59994;
 }
-.text{
-max-width: 38em;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1em;
-}
 
 .link1, .link2, .link3{
 	margin-bottom: auto;
@@ -115,6 +106,61 @@ max-width: 38em;
 	padding: 1em;
 	float:left;
 	text-align: center;
+}
+/*responsive*/
+
+@media only screen and (max-width: 1160px){
+.me{
+height: 8em;
+width: auto;
+margin-left: 2.5em;
+}
+.circle{
+
+}
+h1{
+	font-size: 1em;
+}
+.font{
+	font-size: .8em;
+	}
+.link1, .link2, .link3{
+	width: 11em;
+  height: 11em;
+	}
+
+}
+}
+
+@media only screen and (max-width: 1000px){
+	.me{
+margin-left: 2em;
+margin-top: -4px;
+
+	}
+h1 {
+	font-weight: 400 !important;
+	font-size: 1em !important;
+	margin:.6em !important;
+
+}
+.link1, .link2, .link3{
+	width: 10em;
+  height: 10em;
+	}
+}
+
+@media only screen and (max-width: 500px){
+.font{
+	display: none;
+}
+p{
+	display: none;
+}
+.link1, .link2, .link3{
+	width: 10em;
+  height: 10em;
+	}
 }
 
 
