@@ -109,50 +109,28 @@ ul.icons{
 }
 /*responsive*/
 
-@media only screen and (max-width: 1160px min-width: 1000px){
-.me{
-height: 8em;
-width: auto;
-margin-left: 2.5em;
-}
-.circle{
-
-}
-
-.link1, .link2, .link3{
-	width: 11em;
-  height: 11em;
-  float: none;
-	}
-
-}
-
-
 @media only screen and (max-width: 999px){
-	.me{
-margin-left: 2em;
-margin-top: -4px;
-
-	}
-h1 {
-	font-weight: 400 !important;
-	font-size: 1em !important;
-	margin:.6em !important;
-
-}
-.link1, .link2, .link3{
-	width: 10em;
-  height: 10em;
-	}
+    .me{
+        margin-left: 2em;
+        margin-top: -4px;
+    }
+    h1 {
+        font-weight: 400 !important;
+        font-size: 1em !important;
+        margin:.6em !important;
+    }
+    .link1, .link2, .link3{
+        width: 10em;
+        height: 10em;
+    }
+    .font{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 500px){
-.font{
-	display: none;
-}
-p{
-	display: none;
-}
+
+
 }
 
 
