@@ -150,6 +150,10 @@ ul.icons{
     .font{
     	font-size: .9em;
     }
+    .link1, .link2, .link3{
+		width: 8em;
+        height: 8em;
+	}
 }
 
 @media only screen and (max-width: 500px){
@@ -160,6 +164,11 @@ ul.icons{
 	.font{
         display: none;
     }
+    .link1, .link2, .link3{
+		width: 8em;
+        height: 8em;
+        display:block;
+	}
 
 }
 
