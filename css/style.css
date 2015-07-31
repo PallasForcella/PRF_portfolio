@@ -100,6 +100,7 @@ ul.icons{
 }
 .link1, .link2, .link3{
 	margin-bottom: auto;
+	display:inline-block;
 	margin-top: 3em;
 	background-color: #D0C9C8;
 	border-radius: 10em;
@@ -109,7 +110,6 @@ ul.icons{
 	width: 13em;
 	height: 13em;
 	padding: 1em;
-	float:left;
 }
 /*responsive*/
 @media only screen and (max-width: 1159px){
