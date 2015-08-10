@@ -98,7 +98,8 @@ ul.icons{
 .example{
 	text-align: center;
 }
-.link1, .link2, .link3{
+
+.link1bw, .link2, .link3{
 	margin-bottom: auto;
 	display:inline-block;
 	margin-top: 3em;
@@ -109,7 +110,18 @@ ul.icons{
 	margin-right: 3%;
 	width: 13em;
 	height: 13em;
-	padding: 1em;
+}
+.link1{
+	margin-bottom: auto;
+	display:none;
+	margin-top: 3em;
+	background-color: #D0C9C8;
+	border-radius: 10em;
+	border: .4em #9B8E88 solid;
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 13em;
+	height: 13em;
 }
 /*responsive*/
 @media only screen and (max-width: 1159px){
@@ -166,10 +178,10 @@ ul.icons{
 	.font{
         display: none;
     }
-    .link1, .link2, .link3{
+    .link1bw, .link2, .link3{
 		width: 8em;
         height: 8em;
-        float:none;
+        display:block;
 	}
 
 }
