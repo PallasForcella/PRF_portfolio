@@ -9,8 +9,6 @@
 <!--favicon-->
 <link rel="icon" type="image/x-icon" href="faviconskull.ico" />
 <link rel="shortcut icon" type="image/x-icon"  href="faviconskull.ico">
-<script src="http://code.jquery.com/jquery.min.js"></script>
-  <script src="js/script.js"></script>
 <!--end of favicon-->
   <title>Pallas Ravae Forcella</title>
 </head>
@@ -39,16 +37,19 @@
   
   </div>
 </header>
-  <div class="example">
-    <div class="ryu"><a href="http://pallasforcella.github.io/streetfighter/index.html" target="streetfighter"><img class="link1bw" src="images/ryu-ready-position_light.png"></a></div>
-    <div><a href="http://pallasforcella.github.io/streetfighter/index.html" target="streetfighter"><img class="link1" src="images/ryu-ready-position.png"></a></div>
-
-    <div class="link2"></div>
-    <div class="link3"></div>
-  </div>
- 
-</div>
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <ul id="example" class="ctr">
+      <li id="ryu">
+        <a href="http://pallasforcella.github.io/streetfighter/index.html" target="streetfighter">
+          <img id="color" class="imgCircle hide" src="images/ryu-ready-position.png">
+          <img id="light" class="imgCircle" src="images/ryu-ready-position_light.png">
+        </a>        
+      </li>
+      <li class="imgCircle"></li>
+      <li class="imgCircle"></li>
+      <div style="clear:both;"></div>
+  </ul>
+  <div style="clear:both;"></div>
+   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,10 +1,10 @@
 $(document).ready(function () {
-	$('.ryu').mouseenter(function() {
-    $('.link1bw').hide();
-    $('.link1').show();
-  })
+	$('#ryu').mouseenter(function() {
+    	$('#light').addClass("hide");
+    	$('#color').removeClass("hide");
+  	})
     .mouseleave(function() {
-    $('.link1').hide();
-    $('.link1bw').show();
-  })
+    	$('#color').addClass("hide");
+    	$('#light').removeClass("hide");
+  	})
 });
