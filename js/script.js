@@ -7,7 +7,7 @@ $(document).ready(function () {
     	$('#color').addClass("hide");
     	$('#light').removeClass("hide");
   	})
-  	$('#shopping').mouseenter(function() {
+  $('#shopping').mouseenter(function() {
     	$('#shopping_light').addClass("hide");
     	$('#shopping_color').removeClass("hide");
   	})
@@ -15,4 +15,12 @@ $(document).ready(function () {
     	$('#shopping_color').addClass("hide");
     	$('#shopping_light').removeClass("hide");
   	})
+  $('#hotorcold').mouseenter(function() {
+      $('#hotorcold_light').addClass("hide");
+      $('#hotorcold_color').removeClass("hide");
+    })
+    .mouseleave(function() {
+      $('#hotorcold_color').addClass("hide");
+      $('#hotorcold_light').removeClass("hide");
+    })
 });
